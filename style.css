@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: green;
+    box-sizing: border-box;
+}
+.login-box{
+    background:grey;
+    display: inline;
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+   border-radius: 10px;
+    width: 400px;
+    margin:100px auto;
+    padding: 20px 0px 60px 0px;
+    box-shadow: -1px 3px 20px 3px;
+  
+
+}
+.login-box h1 {
+    font-size: 30px;
+    background-color: gray;
+    font-family: arial;
+    border-bottom: 1px solid #1a2631;
+    padding: 10px 0px 25px 0px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  .login-box input {
+    width: 300px;
+    margin: 10px auto;
+    background: #64606040;
+    padding: 23px;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px -1px;
+    font-size: 15px;
+  }
+  .fgt-psd {
+    background: grey;
+    font-size: 18px;
+    color: rgba(21, 21, 21, 0.71);
+    font-family: arial;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+  }
+  .btn {
+    width: 165px;
+    margin: 10px auto;
+    background: #08ff008c;
+    padding: 14px 0px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    transition: 1s;
+  }
+  .btn:hover{
+    background: rgb(194, 188, 188);
+  }
+.login-box p{
+    color:bisque;
+    background:grey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.signup{
+    background:gray;
+    color: rgb(7, 230, 81);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
